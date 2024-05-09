@@ -1,61 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>minibooks</title>
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+<html lang="en">
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/js/all.min.js"></script>
-    </head>
-    <body>
+<head>
+    <title>minibooks</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/js/all.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
 
     <div class="main">
-<!---------- header ---------->
+        <!---------- header ---------->
         <header>
             <div class="container-fluid">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid">
                             <a class="navbar-brand mobile-logo" href="#"><img src="images/logo.png"></a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                            
-                            <span class="navbar-toggler-icon ms-auto"></span>
-                          </button>
-                          <div class="collapse navbar-collapse toggle-nav-sec" id="navbarTogglerDemo01">
-                            <a class="navbar-brand desk-logo" href="#"><img src="images/logo.png"></a>
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#about">About us</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#service">Services</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact Us</a>
-                              </li>
-                            </ul>
-                            <form class="d-flex">
-                              <button class="btn py-2 px-3 ">Ask a Question</button>
-                            </form>
-                          </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                aria-expanded="false" aria-label="Toggle navigation">
+
+                                <span class="navbar-toggler-icon ms-auto"></span>
+                            </button>
+                            <div class="collapse navbar-collapse toggle-nav-sec" id="navbarTogglerDemo01">
+                                <a class="navbar-brand desk-logo" href="#"><img src="images/logo.png"></a>
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#service">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <a href="https://wa.me/+918590226220" class="btn py-2 px-3 ">Ask a Question</a>
+                                </form>
+                            </div>
                         </div>
-                      </nav>
+                    </nav>
                 </div>
             </div>
         </header>
 
-<!---------- banner ---------->
+        <!---------- banner ---------->
         <section>
             <div class="container-fluid">
                 <div id="owl-banner" class="owl-carousel owl-theme">
@@ -63,7 +74,9 @@
                         <div class="row">
                             <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
                                 <h1>Your one stop solution for all accouting, tax and legal needs.</h1>
-                                <p>Whether you have a straightforward return or complex financial matters, Minibooks simplifies the process, helping you save time and achieve peace of mind. Trust Minibooks to handle your taxes with precision and care.</p>
+                                <p>Whether you have a straightforward return or complex financial matters, Minibooks
+                                    simplifies the process, helping you save time and achieve peace of mind. Trust
+                                    Minibooks to handle your taxes with precision and care.</p>
                                 <div class="bnr-button">
                                     <a href="#" class="talk-to-us">Talk To Us</a>
                                     <a href="tax.html" class="file-your-tax-return">File Your Tax Return</a>
@@ -73,7 +86,9 @@
                                 <div class="penalty-avoided">
                                     <p>Penalty Avoided</p>
                                     <h4>₹56,800.00</h4>
-                                    <div class="percentage"><h6>18%</h6><img src="images/fi_trending-up.svg" width="10%"></div>
+                                    <div class="percentage">
+                                        <h6>18%</h6><img src="images/fi_trending-up.svg" width="10%">
+                                    </div>
                                 </div>
                                 <div class="service-quality">
                                     <p>Service Quality</p>
@@ -101,7 +116,9 @@
                         <div class="row">
                             <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
                                 <h1>Effortless Legal Solutions, Powered by MiniBooks</h1>
-                                <p>Trust our dedicated legal team to manage your documents, contracts, business registrations, trademarks, and more seamlessly. With MiniBooks at your side, focus on your business while we handle the legalities.</p>
+                                <p>Trust our dedicated legal team to manage your documents, contracts, business
+                                    registrations, trademarks, and more seamlessly. With MiniBooks at your side, focus
+                                    on your business while we handle the legalities.</p>
                                 <div class="bnr-button">
                                     <a href="#" class="file-your-tax-return">Book your free consultation</a>
                                 </div>
@@ -141,7 +158,10 @@
                         <div class="row">
                             <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
                                 <h1>MiniBooks help you keep your books updated and in order</h1>
-                                <p>Our team of experienced qualified professionals is dedicated to meticulously organizing and managing your financial records. With their expertise and attention to detail, they ensure that every entry in your books is accurate, compliant, and reflective of your financial position. </p>
+                                <p>Our team of experienced qualified professionals is dedicated to meticulously
+                                    organizing and managing your financial records. With their expertise and attention
+                                    to detail, they ensure that every entry in your books is accurate, compliant, and
+                                    reflective of your financial position. </p>
                                 <div class="bnr-button">
                                     <a href="#" class="file-your-tax-return">Book your free consultation</a>
                                 </div>
@@ -150,7 +170,9 @@
                                 <div class="penalty-avoided">
                                     <p>Books updated</p>
                                     <h4>₹56,800.00</h4>
-                                    <div class="percentage"><h6>18%</h6><img src="images/fi_trending-up.svg" width="10%"></div>
+                                    <div class="percentage">
+                                        <h6>18%</h6><img src="images/fi_trending-up.svg" width="10%">
+                                    </div>
                                 </div>
                                 <div class="service-quality">
                                     <p>Service Quality</p>
@@ -177,23 +199,24 @@
                 </div>
             </div>
         </section>
-<!---------- About Us ---------->
+        <!---------- About Us ---------->
         <section class="about-sec" id="about">
             <div class="container">
-                <h5>ABOUT US</h5>
+                <h5 cla>ABOUT US</h5>
                 <diV class="row">
                     <div class="col-lg-6 mb-sm-5">
                         <h2>Simplifying Taxation,
                             Empowering Growth</h2>
+                            <h6 class="mobile-desc">We are a team of finance professionals, offering services that cover the accounting and legal needs of startups and established businesses.We offer services in accounting, book keeping, taxation services, legal entity formations and much more. Verified professionals helping you with 100% compliance.</h6>
                         <div class="about">
-                            <img src="images/about-bg.png">
+                            <img class="about-bg" src="images/about-bg.png">
                             <div>
-                                <img src="images/about.png">
+                                <img class="girl-img" src="images/about.png">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h6>We are a team of finance professionals, offering services that cover the accounting and legal needs of startups and established businesses.We offer services in accounting, book keeping, taxation services, legal entity formations and much more. Verified professionals helping you with 100% compliance.</h6>
+                        <h6 class="pc-desc">We are a team of finance professionals, offering services that cover the accounting and legal needs of startups and established businesses.We offer services in accounting, book keeping, taxation services, legal entity formations and much more. Verified professionals helping you with 100% compliance.</h6>
                         <div class="mission">
                             <div>
                                 <h4>Our Mission</h4>
@@ -212,7 +235,7 @@
                             </div>
                         </div>
                         <p>To constantly achieve a stable state of being in a providing platform of customized and standard accounting and financial services to the clientele. We aim to become and stay at the leading platform for accounting solutions and bring a remarkable growth for our clients, employees and all the stakeholders involved that can indeed fuel our progress.</p>
-                        <div class="mt-4">
+                        <div class="mt-4 talk">
                             <a href="#">Talk To Us</a>
                         </div>
                     </div>
@@ -220,7 +243,7 @@
             </div>
         </section>
 
-<!---------- Service ---------->
+        <!---------- Service ---------->
         <section class="service-sec" id="service">
             <div class="container">
                 <h5>OUR SERVICES</h5>
@@ -265,7 +288,7 @@
                 </div>
             </div>
         </section>
-<!---------- core values ---------->
+        <!---------- core values ---------->
         <section class="core-sec">
             <div class="container">
                 <h5>CORE VALUES</h5>
@@ -277,19 +300,47 @@
                     <div class="col-lg-6">
                         <h6>Minibooks’s core values guide its practices and define its culture, shaping its relationships with clients, employees, and the broader community. Integrity is paramount, ensuring that our firm upholds the highest ethical standards and transparency in all dealings. </h6>
                     </div>
-                    <div class="col-lg-6">
+                    <div id="owl-core" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="core-box">
+                                <h5>Perfomance<span><img src="images/core01.svg"></span></h5>
+                                <p>Our focus is on delivering high-performance metrics by consistently meeting tight deadlines and surpassing expectations. We strive to achieve exceptional quality in a short timeframe, ensuring our clients receive top-notch results quickly and efficiently.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="core-box">
+                                <h5>Excellence<span><img src="images/core02.svg"></span></h5>
+                                <p>We take innovation into account and implement to bring the standards of working and consistently strive to match higher standards in our techniques and quality of work.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="core-box">
+                                <h5>People<span><img src="images/core03.svg"></span></h5>
+                                <p>We do understand taking care of our people and try to provide them best
+                                    employee experience so that in return they provide best client experience to
+                                    our clients. Our employees are our biggest assets and we never compromise with the appreciations to their utmost dedication to their work.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="core-box">
+                                <h5>Accountability<span><img src="images/core04.svg"></span></h5>
+                                <p>We mean the promises and Commitment. We expect our clients to hold us accountable for our work just as we hold ourselves accountable for continuous improvements. We take our commitments on a serious note and never take it for the compromises,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 core-pc">
                         <div class="core-box">
                             <h5>Perfomance<span><img src="images/core01.svg"></span></h5>
                             <p>Our focus is on delivering high-performance metrics by consistently meeting tight deadlines and surpassing expectations. We strive to achieve exceptional quality in a short timeframe, ensuring our clients receive top-notch results quickly and efficiently.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 core-pc">
                         <div class="core-box">
                             <h5>Excellence<span><img src="images/core02.svg"></span></h5>
                             <p>We take innovation into account and implement to bring the standards of working and consistently strive to match higher standards in our techniques and quality of work.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 core-pc">
                         <div class="core-box">
                             <h5>People<span><img src="images/core03.svg"></span></h5>
                             <p>We do understand taking care of our people and try to provide them best
@@ -297,7 +348,7 @@
                                 our clients. Our employees are our biggest assets and we never compromise with the appreciations to their utmost dedication to their work.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 core-pc">
                         <div class="core-box">
                             <h5>Accountability<span><img src="images/core04.svg"></span></h5>
                             <p>We mean the promises and Commitment. We expect our clients to hold us accountable for our work just as we hold ourselves accountable for continuous improvements. We take our commitments on a serious note and never take it for the compromises,</p>
@@ -306,7 +357,7 @@
                 </div>
             </div>
         </section>
-<!---------- Benefits ---------->
+        <!---------- Benefits ---------->
         <section class="benefit-sec">
             <div class="container">
                 <h5>YOUR BENEFITS</h5>
@@ -331,11 +382,11 @@
             </div>
         </section>
 
-<!---------- Testimonials ---------->
+        <!---------- Testimonials ---------->
         <section class="Testimonials">
-            <div class="containr" style="padding-left: 3rem;"> 
+            <div class="testi-cont"> 
                 <div class="row">
-                    <div class="col-lg-5 d-flex flex-column gap-3">
+                    <div class="col-lg-5 d-flex flex-column ">
                         <h5>What they said about us</h5>
                         <h2>Hear from our esteemed
                             clients.</h2>
@@ -400,8 +451,8 @@
                 </div>
             </div>
         </section>
-<!---------- Contact ---------->
-        <section class="contact-sec" id="contact">
+        <!---------- Contact ---------->
+        <!-- <section class="contact-sec" id="contact">
             <div class="container">
                 <h5>CONNECT WITH US</h5>
                 <h2>Connect with us<br>
@@ -425,17 +476,26 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <div class="whatsapp-icon">
-            <a href="#"><img src="images/WhatsApp_icon.png"></a>
+            <a href="https://wa.me/+918590226220"><img src="images/WhatsApp_icon.png"></a>
         </div>
     </div>
-<!---------- Footer ---------->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <img src="images/logo-white.png">
+    <!---------- Footer ---------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="footer-logo" src="images/logo-white.png">
+                </div>
+                <div class="d-flex gap-5">
+                    <div class="col-xl-2 social-media-m">
+                        <h4>Social Media</h4>
+                        <div class="social-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
                     </div>
                     <div class="col-xl-2">
                         <h4>Quick Links</h4>
@@ -444,105 +504,134 @@
                         <a href="#">Services</a>
                         <a href="#">Contact</a>
                     </div>
-                    <div class="col-xl-3">
-                        <h4>Address</h4>
-                        <p>1st Floor, Reliance Fresh Signature
-                            Building, Subhash Chandra Bose Rd,
-                            Vyttila, Kochi, Kerala 682019</p>
-                    </div>
-                    <div class="col-xl-2">
-                        <h4>Contact Us</h4>
-                        <p>hello@minibooks.co.in</p>
-                        <p>+91 8590226220</p>
-                    </div>
-                    <div class="col-xl-2">
-                        <h4>Social Media</h4>
-                        <div class="social-icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                </div>
+                <div class="col-xl-3">
+                    <h4>Address</h4>
+                    <p>1st Floor, Reliance Fresh Signature
+                        Building, Subhash Chandra Bose Rd,
+                        Vyttila, Kochi, Kerala 682019</p>
+                </div>
+                <div class="col-xl-2">
+                    <h4>Contact Us</h4>
+                    <p>hello@minibooks.co.in</p>
+                    <p>+91 8590226220</p>
+                </div>
+                <div class="col-xl-2 social-media">
+                    <h4>Social Media</h4>
+                    <div class="social-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
 
-        <script>
-            $(function() {
-                // Owl Carousel
-                var owl = $("#owl-banner");
-                owl.owlCarousel({
-                    margin: 10,
-                    loop: true,
-                    nav: true,
-                    autoplay:true,
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:1
-                        },
-                        1000:{
-                            items:1
-                        }
+    <script>
+        $(function () {
+            // Owl Carousel
+            var owl = $("#owl-banner");
+            owl.owlCarousel({
+                margin: 10,
+                loop: true,
+                nav: true,
+                //autoplay:true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
                     }
-                });
-                });
+                }
+            });
+        });
 
-                $(function() {
-                // Owl Carousel
-                var owl = $("#owl-service");
-                owl.owlCarousel({
-                    margin: 10,
-                    loop: true,
-                    nav: true,
-                    autoplay:true,
-                    stagePadding: 100,
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:1
-                        },
-                        1000:{
-                            items:2
-                        },
-                        1400:{
-                            items:3
-                        }
+        $(function () {
+            // Owl Carousel
+            var owl = $("#owl-service");
+            owl.owlCarousel({
+                margin: 10,
+                loop: true,
+                nav: true,
+                // autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        // stagePadding:20
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    },
+                    1400: {
+                        stagePadding: 100,
+                        items: 3
                     }
-                });
-                });
-                
-                $(function() {
-                // Owl Carousel
-                var owl = $("#owl-testimonial");
-                owl.owlCarousel({
-                    margin: 10,
-                    loop: true,
-                    autoplay:true,
-                    nav: true,
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:1
-                        },
-                        1000:{
-                            items:1
-                        },
-                        1400:{
-                            items:1.5
-                        }
+                }
+            });
+        });
+        $(function () {
+            // Owl Carousel
+            var owl = $("#owl-core");
+            owl.owlCarousel({
+                margin: 10,
+                loop: true,
+                nav: true,
+                // autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        // stagePadding:20
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    },
+                    1400: {
+                        stagePadding: 100,
+                        items: 3
                     }
-                });
-                });
-        </script>
+                }
+            });
+        });
 
-    </body>
+        $(function () {
+            // Owl Carousel
+            var owl = $("#owl-testimonial");
+            owl.owlCarousel({
+                margin: 10,
+                loop: true,
+                autoplay: true,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    },
+                    1400: {
+                        items: 1.5
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+
 </html>
